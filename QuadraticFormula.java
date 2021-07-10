@@ -1,6 +1,7 @@
 package QuadaraticEquationSolver;
 public class QuadraticFormula extends javax.swing.JFrame {
     public QuadraticFormula() {
+        super("Quadratic Equation Solver by Sharhaan");
         initComponents();
     }
 
