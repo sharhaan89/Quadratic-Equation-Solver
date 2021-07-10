@@ -37,7 +37,7 @@ public class QuadraticFormula extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 0, 0));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("EQUATION FORM: ax2 + bx + c");
+        jLabel2.setText("EQUATION FORM: ax^2 + bx + c");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         jLabel3.setText("a: ");
