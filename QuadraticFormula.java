@@ -231,16 +231,19 @@ public class QuadraticFormula extends javax.swing.JFrame {
         x2 = (-b - discriminant) / 2.0*a;
         jTextField5.setText(String.valueOf(x1+" , "+x2));
         String text = "";
+        double x11 = Math.abs(x1);
+        double x22 = Math.abs(x2);
         if(x1 > 0) {
-            text += "(x - "+x1+")";
+            text += "(x - "+x11+")";
         } else {
-            text += "(x + "+x1+")";
+            text += "(x + "+x11+")";
         } 
         if(x2 > 0) {
-            text += "(x - "+x2+")";
+            text += "(x - "+x22+")";
         } else {
-            text += "(x + "+x2+")";
+            text += "(x + "+x22+")";
         } 
+
         jTextField4.setText(text);
     }                                        
 
